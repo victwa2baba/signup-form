@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Japonesa';
+    src: url('Japonesa.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Interbold';
+    src: url('Inter18pt-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Interregular';
+    src: url('Inter18pt-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-body: 'Interregular', sans-serif;
+    --font-heading: 'Interbold', sans-serif;
+    --font-logo: 'Japonesa', sans-serif;
+    --font-size: 16px;
+    --color-primary: #f9f9f9;
+    --color-secondary: #f9f9f9;
+}
