@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,8 +6,88 @@
     <title>Signup | VictorDev</title>
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    
+    <main>
+        <div class="main">
+            <div class="bg d-none">
+                <div class="bg-trasparent">
+                    <div>
+                        <img src="src/img/logo/odin-lined.png" alt="logo">
+                        <span class="logo">ODIN</span>
+                    </div>
+                </div>
+                <footer>
+                    <p>Photo by <a href="https://unsplash.com/@hekmat_halimi"> Hekmat Halimi</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+                </footer>
+            </div>
+            <div class="right-container">
+                <div>
+                    <p class="heading p-2">
+                        <b>This is not a real online service! 
+                            You know you need something like this in your life to help you realize your deepest dreams.
+                            Sign up <em>now</em> to get started.</b>
+                    </p>
+                    <p  class="ps-2 pb-2">
+                        <b>You <em>know</em> you want to.</b>
+                    </p>
+                </div>
+                <div class="form-container">
+                    <p class="p-2">
+                        <b>Let's do this!</b>
+                    </p>
+
+                    <form action="/signup.html" method="post" class="form">
+                        <div class="form-group-shadow">
+                            <div class="form-group pb ps-2">
+                                <div class="form-row">
+                                    <label for="first-name">FIRST NAME</label>
+                                    <input type="text" name="firstName" id="first-name" minlength="3" autocomplete="name" required>
+                                </div>
+                                <div class="form-row">
+                                    <label for="last-name">LAST NAME</label>
+                                    <input type="text" name="lastName" id="last-name" minlength="3" required>
+                                </div>
+                            </div>
+                            <div class="form-group pb ps-2">
+                                <div class="form-row">
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" name="email" id="email" autocomplete="email" required>
+                                </div>
+                                <div class="form-row">
+                                    <label for="phone">PHONE NUMBER</label>
+                                    <input type="tel" name="phone" id="phone" autocomplete="tel" required>
+                                </div>
+                            </div>
+                            <div class="form-group pb ps-2">
+                                <div class="form-row">
+                                    <label for="password">PASSWORD</label>
+                                    <input type="password" name="password" id="password" minlength="6" required>
+                                </div>
+                                <div class="form-row">
+                                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                    <input type="password" name="confirmPassword" id="confirmPassword" minlength="6" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt ps-2">
+                            <button type="submit">Create Account</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="align-left ps-2 pb">
+                    <p>
+                        <b>Already have an account?</b>
+                    </p>
+                    &nbsp;
+                    <a href="#">Login</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="small-screen">Please get a bigger display!</div>
 </body>
 </html>
